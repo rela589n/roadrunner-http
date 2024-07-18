@@ -1,0 +1,10 @@
+version: '3'
+server:
+    # RR uses a single server approach
+    # This server could only handle incoming http requests
+    # If something else (like queued processing) is needed, then server.command
+    # should contain a php file that could handle both types of requests (depending on incoming RR_MODE env)
+    command: "php psr-worker.php"
+
+http:
+    address: 0.0.0.0:8008

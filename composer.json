@@ -1,0 +1,19 @@
+{
+    "name": "rela589n/roadrunner-http",
+    "autoload": {
+        "psr-4": {
+            "Rela589n\\RoadrunnerHttp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yevhen Sidelnyk",
+            "email": "zsidelnik@gmail.com"
+        }
+    ],
+    "require": {
+        "spiral/roadrunner-http": "^3.5",
+        "nyholm/psr7": "^1.8",
+        "spiral/roadrunner-cli": "^2.6"
+    }
+}
