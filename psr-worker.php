@@ -36,6 +36,8 @@ while (true) {
     try {
         $name = $request->getQueryParams()['name'] ?? 'Ivan';
 
+        sleep(5);
+
         // Here is where the call to your application code will be located.
         // For example:
         //  $response = $app->send($request);

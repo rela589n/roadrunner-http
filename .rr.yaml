@@ -8,3 +8,9 @@ server:
 
 http:
     address: 0.0.0.0:8008
+    pool:
+        # debug: true
+        num_workers: 1
+        max_queue_size: 2
+        supervisor:
+            max_worker_memory: 128
